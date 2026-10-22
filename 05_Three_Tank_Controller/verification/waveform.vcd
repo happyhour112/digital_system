@@ -1,0 +1,110 @@
+$date
+  Wed Oct 21 11:26:44 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_three_tank_controller $end
+$var reg 3 ! sw[2:0] $end
+$var reg 1 " led[0:0] $end
+$var reg 1 # alternate_led[0:0] $end
+$var reg 1 $ active_low_led[0:0] $end
+$scope module dut $end
+$var reg 3 % sw[2:0] $end
+$var reg 1 & led[0:0] $end
+$upscope $end
+$scope module alternative $end
+$var reg 3 ' sw[2:0] $end
+$var reg 1 ( led[0:0] $end
+$upscope $end
+$scope module polarity_variant $end
+$var reg 3 ) sw[2:0] $end
+$var reg 1 * led[0:0] $end
+$var reg 3 + low_level[2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b0 "
+b0 #
+b0 $
+b000 %
+b0 &
+b000 '
+b0 (
+b111 )
+b0 *
+b000 +
+#10000000
+b001 !
+b001 %
+b001 '
+b110 )
+b001 +
+#20000000
+b010 !
+b010 %
+b010 '
+b101 )
+b010 +
+#30000000
+b011 !
+b1 "
+b1 #
+b1 $
+b011 %
+b1 &
+b011 '
+b1 (
+b100 )
+b1 *
+b011 +
+#40000000
+b100 !
+b0 "
+b0 #
+b0 $
+b100 %
+b0 &
+b100 '
+b0 (
+b011 )
+b0 *
+b100 +
+#50000000
+b101 !
+b1 "
+b1 #
+b1 $
+b101 %
+b1 &
+b101 '
+b1 (
+b010 )
+b1 *
+b101 +
+#60000000
+b110 !
+b110 %
+b110 '
+b001 )
+b110 +
+#70000000
+b111 !
+b111 %
+b111 '
+b000 )
+b111 +
+#80000000

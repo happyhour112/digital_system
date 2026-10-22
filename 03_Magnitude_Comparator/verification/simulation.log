@@ -1,0 +1,4 @@
+../../src/ieee2008/numeric_std-body.vhdl:1776:7:@0ms:(assertion warning): NUMERIC_STD."=": metavalue detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1168:7:@0ms:(assertion warning): NUMERIC_STD.">": metavalue detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:1320:7:@0ms:(assertion warning): NUMERIC_STD."<": metavalue detected, returning FALSE
+/workspace/scratch/aefc120a01c6/output/Week7_FPGA_Projects/03_Magnitude_Comparator/sim/tb_magnitude_comparator.vhd:30:9:@2560ns:(report note): PASS magnitude_comparator: 256 binary combinations
